@@ -1,0 +1,31 @@
+.navbar{
+
+}
+
+.navbar__ul{
+    display: flex;
+    background-color:rgb(15, 128, 128);
+    height: 60px;
+    color: white;
+    justify-content:end;
+}
+
+.navbar__ulLink > li {
+    list-style: none;
+    font-size: 20px;
+    margin-right: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.navbar__ulLink{
+    color: white;
+    text-decoration: none;
+}
+.navbar__ul > button{
+    height: 40px;
+    margin-top: 10px;
+    width: 90px;
+    margin-right: 20px;
+}
